@@ -1,0 +1,13 @@
+{
+  "name": "test-queues",
+  "scripts": {
+    "start": "arc-sandbox",
+    "test": "tape test/*-test.js | tap-spec"
+  },
+  "dependencies": {
+    "@architect/architect": "^5.9.34",
+    "@architect/functions": "^3.4.14",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.13.0"
+  }
+}
