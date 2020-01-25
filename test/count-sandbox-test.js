@@ -1,5 +1,5 @@
 let test = require('tape')
-let {sandbox} = require('@architect/architect')
+let sandbox = require('@architect/sandbox')
 let {queues} = require('@architect/functions')
 let count = require('../src/queues/count')
 
